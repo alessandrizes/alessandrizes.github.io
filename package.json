@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alessouza/myPortfolio/issues"
   },
-  "homepage": "https://github.com/alessouza/myPortfolio#readme"
+  "homepage": "https://github.com/alessouza/myPortfolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
 }
