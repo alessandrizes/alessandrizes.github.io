@@ -1,17 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Alessandra Souza</title>
     <!-- css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <!-- Nav -->
+    <nav class="navbar-primary navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/brand01.png" width="40" height="40" alt="Logo do site Ale">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Sobre
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- corousel -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel-banner carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/banner01.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/banner02.jpg" alt="Second slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <!-- <section class="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="assets/image01.jpeg" alt="Mulher negra sorrindo" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <p>Oi! Meu nome é Alessandra Souza e sou uma desenvolvedora brasileira apaixonada por web, empreendedorismo,
+                        esportes e viagens. Atualmente, estou me profissionalizando em tempo integral na {reprograma}, uma
+                        iniciativa de impacto social que foca em ensinar programação para mulheres cis e trans que não têm
+                        recursos e/ou oportunidades para aprender a programar. E mais do que escrever código, estou aprendendo
+                        o verdadeiro sentido de colaboração. Se você quer falar sobre a web, um novo projeto legal ou me
+                        convidar para patinar, me mande um e-mail. Eu também tento escrever sobre algumas coisas da web no
+                        meu blog. Você pode me encontrar em: Twitter, GitHub, LinkedIn, CodePen e Facebook.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
     <!-- js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

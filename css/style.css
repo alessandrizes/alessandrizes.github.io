@@ -1,0 +1,13 @@
+/* Nav */
+.navbar-primary .navbar-collapse{
+    justify-content: flex-end;
+}
+
+/* Carousel */
+.carousel-banner img {
+    height: 80vh;
+    object-fit: cover;
+}
+.carousel-banner {
+    margin-top: 66px;
+}
