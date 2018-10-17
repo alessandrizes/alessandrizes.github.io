@@ -1,9 +1,9 @@
-/* Nav */
+/* header */
 .navbar-primary .navbar-collapse{
     justify-content: flex-end;
 }
 
-/* Carousel */
+/* banner */
 .carousel-banner img {
     height: 80vh;
     object-fit: cover;
@@ -13,14 +13,12 @@
 }
 
 /* About */
-.row-margin div {
-    margin-top: 50px;
+.row-margin> div {
+    margin: 60px 0 60px 0;
+
 }
 .row-margin h4 {
     margin-bottom: 30px;
-}
-.about img {
-    object-fit: cover;
 }
 .about .progress-bar {
     text-align: left;
@@ -29,4 +27,12 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     padding-left: 20px;
+}
+.skills>div {
+    margin-bottom: 20px;
+}
+
+/* Services */
+.services h2 {
+    margin-bottom: 30px;
 }

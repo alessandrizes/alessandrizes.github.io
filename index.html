@@ -12,41 +12,43 @@
 </head>
 
 <body>
-    <!-- Nav -->
-    <nav class="navbar-primary navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/brand01.png" width="40" height="40" alt="Logo do site Ale">
-            </a>
+    <!-- header -->
+    <header class="header">
+        <nav class="navbar-primary navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/brand01.png" width="40" height="40" alt="Logo do site Ale">
+                </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Sobre
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfólio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#keyAbout">Sobre
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#keyServices">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- corousel -->
-    <section>
+    <!-- slide -->
+    <section class="banner">
         <div id="carouselExampleIndicators" class="carousel-banner carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -72,52 +74,87 @@
     </section>
 
     <!-- About -->
-    <main>
-        <section class="about">
-            <div class="container">
-                <div class="row row-margin d-flex align-items-center">
-                    <div class="col-lg-6">
-                        <img src="assets/image01.jpeg" alt="Alessandra sorrindo" class="img-fluid">
-                    </div>
-                    <div class="col-lg-6">
-                        <h2 class="text-warning">Alessandra Souza</h2>
-                        <h4>Front-end developer</h4>
-                        <p>
-                            Oi! Meu nome é Alessandra Souza e sou uma desenvolvedora brasileira apaixonada por web, empreendedorismo,esportes e viagens.
-                        </p>
-                        <p>
-                            Atualmente, estou me profissionalizando em tempo integral na
-                            <a href="https://reprograma.com.br/" class="card-link">{reprograma}</a>, uma iniciativa de impacto social que foca em ensinar programação para mulheres
-                            cis e trans que não têmrecursos e/ou oportunidades para aprender a programar. E mais do que escrever
-                            código, estou aprendendo o verdadeiro sentido de colaboração.
-                        </p>
-                        <p>
-                            Se você quer falar sobre a web, um novo projeto legal ou me convidar para patinar, me mande um
-                            <a href="mailto:alessandrasilvasouza@live.com" class="card-link">e-mail</a>.
-                            <!--Eu também tento escrever sobre algumas coisas da web no meu blog.  Você pode me encontrar em: Twitter, GitHub, LinkedIn, CodePen e Facebook.-->
-                        </p>
-                        <div class="skills">
-                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                                aria-valuemax="100">html
-                            </div>
-                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-                                aria-valuemax="100">css
-                            </div>
-                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                                aria-valuemax="100">javascript
-                            </div>
-                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
-                                aria-valuemax="100">jquery
-                            </div>
-                            <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
-                                aria-valuemax="100">ux design
-                            </div>  
+    <section class="about" id="keyAbout">
+        <div class="container">
+            <div class="row row-margin d-flex align-items-center">
+                <div class="col-lg-6">
+                    <img src="assets/image01.jpeg" alt class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="text-warning">Alessandra Souza</h2>
+                    <h4>Front-end developer</h4>
+                    <p>
+                        Oi! Meu nome é Alessandra Souza e sou uma desenvolvedora brasileira apaixonada por web, empreendedorismo,esportes e viagens.
+                    </p>
+                    <p>
+                        Atualmente, estou me profissionalizando em tempo integral na
+                        <a href="https://reprograma.com.br/" class="card-link">{reprograma}</a>, uma iniciativa de impacto social que foca em ensinar programação para mulheres
+                        cis e trans que não têmrecursos e/ou oportunidades para aprender a programar. E mais do que escrever
+                        código, estou aprendendo o verdadeiro sentido de colaboração.
+                    </p>
+                    <p>
+                        Se você quer falar sobre a web, um novo projeto legal ou me convidar para patinar, me mande um
+                        <a href="mailto:alessandrasilvasouza@live.com" class="card-link">e-mail</a>.
+                        <!--Eu também tento escrever sobre algumas coisas da web no meu blog.  Você pode me encontrar em: Twitter, GitHub, LinkedIn, CodePen e Facebook.-->
+                    </p>
+                    <div class="skills">
+                        <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 100%"
+                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">html
+                        </div>
+                        <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 85%"
+                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">css
+                        </div>
+                        <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 75%"
+                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">javascript
+                        </div>
+                        <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 70%"
+                            aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">jquery
+                        </div>
+                        <div class="progress progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" style="width: 65%"
+                            aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">ux design
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="keyServices">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card bg-light">
+                        <div class="card-header text-center">Responsividade</div>
+                        <div class="card-body">
+                            <p class="card-text">Responsividade não é mais um "plus" na sua aplicação e sim uma característica obrigatória.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-light">
+                        <div class="card-header text-center">Acessibilidade</div>
+                        <div class="card-body">
+                            <p class="card-text">Uma aplicação web deve ser acessível para qualquer pessoa com qualquer tipo de deficiencia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-light">
+                        <div class="card-header text-center">Pixel Perfect</div>
+                        <div class="card-body">
+                            <p class="card-text">Atenta aos detalhes, aqui sua aplicação tem o layout seguido a risca, com nenhum pixel fora de
+                                lugar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
