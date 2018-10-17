@@ -36,3 +36,49 @@
 .services h2 {
     margin-bottom: 30px;
 }
+.services>div {
+    margin-bottom: 60px;
+}
+
+/* portfolio */
+.portfolio .portfolio-img {
+    width: 100%;
+    height: 400px;
+    object-position: top;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.portfolio .portfolio-hover {
+    opacity: 0;
+    transition: 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+}
+.portfolio .portfolio-hover p {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* contact */
+
+input.error {
+    border-color: red;
+}
+textarea.error {
+    border-color: red;
+}
+span.error {
+    color:red;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
