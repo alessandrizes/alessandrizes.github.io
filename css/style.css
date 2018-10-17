@@ -11,3 +11,22 @@
 .carousel-banner {
     margin-top: 66px;
 }
+
+/* About */
+.row-margin div {
+    margin-top: 50px;
+}
+.row-margin h4 {
+    margin-bottom: 30px;
+}
+.about img {
+    object-fit: cover;
+}
+.about .progress-bar {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
