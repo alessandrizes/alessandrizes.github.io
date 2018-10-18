@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Alessandra Souza | Portfólio</title>
     <!-- css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -36,10 +38,10 @@
                             <a class="nav-link" href="#keyServices">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfólio</a>
+                            <a class="nav-link" href="#keyPortfolio">Portfólio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#keyContact">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -122,6 +124,7 @@
     <!-- services -->
     <section class="services" id="keyServices">
         <div class="container">
+            <h2 class="d-flex justify-content-center text-uppercase p-4">Serviços</h2>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card bg-light">
@@ -156,25 +159,80 @@
     </section>
 
     <!-- portfolio -->
-    <!-- <section class="portfolio">
+    <section class="portfolio" id="keyPortfolio">
         <div class="container">
+            <h2 class="d-flex justify-content-center text-uppercase p-4">Portfólio</h2>
             <div class="row">
-                <div class="col">
-                    <img class="portfolio-img" src="assets/beyonce01.jpg" alt>
+                <div class="col-lg-6">
+                    <figure class="figure">
+                        <img src="assets/beyonce01.jpg" class="portfolio-img figure-img img-fluid rounded" alt>
+                    </figure>
                 </div>
-                <div class="portfolio-hover">
-                    <p>Mais informações</p>
-                    <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#moreModal">
-                        +
-                    </button>
+                <div class="col-border border-top p-5 col-lg-6">
+                    <h3>Lorem </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus maiores reiciendis autem totam,
+                        magnam cum iure animi dolore vel velit tempora deserunt pariatur aliquid ex. Inventore repudiandae
+                        explicabo non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus maiores reiciendis
+                        autem totam, magnam cum iure animi dolore vel velit tempora deserunt pariatur aliquid ex. Inventore
+                        repudiandae explicabo non.
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex flex-row-reverse">
+                <div class="col-lg-6">
+                    <figure class="figure">
+                        <img src="assets/designThink02.jpg" class="portfolio-img figure-img img-fluid rounded" alt>
+                    </figure>
+                </div>
+                <div class="col-border border-top p-5 col-lg-6">
+                    <h3>Lorem </h3>
+                    <p>orem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus maiores reiciendis autem totam,
+                        magnam cum iure animi dolore vel velit tempora deserunt pariatur aliquid ex. Inventore repudiandae
+                        explicabo non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus maiores reiciendis
+                        autem totam, magnam cum iure animi dolore vel velit tempora deserunt pariatur aliquid ex. Inventore
+                        repudiandae explicabo non.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <figure class="figure">
+                        <img src="assets/mDeMaravilhosa03.jpg" class="portfolio-img figure-img img-fluid rounded" alt>
+                    </figure>
+                </div>
+                <div class="col-border border-top p-5 col-lg-6">
+                    <h3>Lorem </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus maiores reiciendis autem totam,
+                        magnam cum iure animi dolore vel velit tempora deserunt pariatur aliquid ex. Inventore repudiandae
+                        explicabo non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus maiores reiciendis
+                        autem totam, magnam cum iure animi dolore vel velit tempora deserunt pariatur aliquid ex. Inventore
+                        repudiandae explicabo non.
+                    </p>
+                </div>
+            </div>
+            <div class="row d-flex flex-row-reverse">
+                <div class="col-lg-6">
+                    <figure class="figure">
+                        <img src="assets/nathalyNeri04.jpg" class="portfolio-img figure-img img-fluid rounded" alt>
+                    </figure>
+                </div>
+                <div class="col-border border-top p-5 col-lg-6">
+                    <h3>Lorem </h3>
+                    <p>orem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus maiores reiciendis autem totam,
+                        magnam cum iure animi dolore vel velit tempora deserunt pariatur aliquid ex. Inventore repudiandae
+                        explicabo non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus maiores reiciendis
+                        autem totam, magnam cum iure animi dolore vel velit tempora deserunt pariatur aliquid ex. Inventore
+                        repudiandae explicabo non.
+                    </p>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- contact -->
-    <section class="contact">
+    <section class="contact" id="keyContact">
         <div class="container">
+            <h2 class="d-flex justify-content-center text-uppercase p-4">Contato</h2>
             <form class="form-contact">
                 <div class="form-group">
                     <label for="exampleInputName">Nome</label>
@@ -192,10 +250,25 @@
                     <label for="exampleInputText">Escreva uma mensagem</label>
                     <textarea name="text" class="form-control" id="exampleInputText" rows="4"></textarea>
                 </div>
-                <button class="btn btn-primary">Submit</button>
+                <button class="btn btn-primary">Enviar</button>
             </form>
         </div>
     </section>
+
+    <!-- footer -->
+    <footer class="footer bg-warning p-5">
+        <div class="container">
+            <p class="d-flex justify-content-center">
+                <a href="https://github.com/alessouza" target="_blank">
+                    <i class="fab fa-github m-3"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/alessandrassouza/" target="_blank">
+                    <i class="fab fa-linkedin m-3"></i>
+                </a>
+            </p>
+            <p class="text-light text-center m-0">Copyright © Alessandra Souza 2018</p>
+        </div>
+    </footer>
 
     <!-- js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
