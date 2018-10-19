@@ -2,6 +2,9 @@
 .navbar-primary .navbar-collapse{
     justify-content: flex-end;
 }
+.brand-img {
+    width: 60px;
+}
 
 /* banner */
 .carousel-banner img {
@@ -33,9 +36,6 @@
 }
 
 /* Services */
-.services h2 {
-    margin-bottom: 30px;
-}
 .services>div {
     margin-bottom: 60px;
 }
@@ -71,7 +71,12 @@
 }
 
 /* contact */
-
+.contact {
+    margin-top: 30px;
+}
+.contact .container {
+    width: 40%;
+}
 input.error {
     border-color: red;
 }
