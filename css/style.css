@@ -73,25 +73,42 @@ body {
     border-color: #ffa500;
 }
 /* About */
-.row-margin> div {
-    margin: 60px 0 60px 0;
-
+.myabout {
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
 }
-.row-margin h4 {
-    margin-bottom: 30px;
+.myabout_col {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
-.about .progress-bar {
-    text-align: left;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 1px;
+.myabout_img {
+    width: 55%;
+    border-radius: 55%;
+}
+.myabout_title {
+    margin: 20px auto;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.myabout_progress {
+    margin: 20px 0;
     text-transform: uppercase;
+}
+.myabout_progress-bar {
+    text-align: left;
     padding-left: 20px;
+    font-weight: bold;
+    font-size: 0.85rem;
 }
-.skills>div {
-    margin-bottom: 20px;
+.myabout_link {
+    color: #ffa500;
 }
-
+.myabout_link:hover {
+    color: #17a2b8;
+}
 /* Services */
 .services>div {
     margin-bottom: 60px;
