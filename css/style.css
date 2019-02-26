@@ -21,7 +21,12 @@ body {
 .mynav_item {
     margin: 0 15px;
     font-weight: bold;
+    color: #212529;
 }
+.mynav_item:hover {
+    color: #ffa500;
+}
+
 @media (max-width: 420px) {
     .mynav_item {
         margin: 0;    
@@ -59,6 +64,13 @@ body {
     font-size: 1.3rem;
     border-radius: 0px;
     border: 2px solid;
+    color: #212529;
+    border-color: #212529;
+}
+.mybanner_btn:hover {
+    color: #212529;
+    background-color: #ffa500;
+    border-color: #ffa500;
 }
 /* About */
 .row-margin> div {
