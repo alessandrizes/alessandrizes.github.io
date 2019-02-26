@@ -1,20 +1,65 @@
-/* header */
-.navbar-primary .navbar-collapse{
-    justify-content: flex-end;
+/* base */
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
-.brand-img {
-    width: 60px;
+/* navbar */
+.mynav{
+    background-color: transparent;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
 }
-
+@media (max-width: 768px){
+    .mynav {
+        background-color: #f8f9fa;
+    }
+}
+.mynav_nav {
+    margin-left: 50px;
+}
+.mynav_item {
+    margin: 0 15px;
+    font-weight: bold;
+}
+@media (max-width: 420px) {
+    .mynav_item {
+        margin: 0;    
+    }  
+}
 /* banner */
-.carousel-banner img {
-    height: 80vh;
-    object-fit: cover;
+.mybanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.carousel-banner {
-    margin-top: 66px;
+.mybanner_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
+.mybanner_paragraph {
+    font-size: 2.7rem;
+    margin: 0;
+    text-align: center;
+}
+.mybanner_img {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+}
+.mybanner_name {
+    color: #ffa500;
+    font-weight: bold;
+}
+.mybanner_btn {
+    width: 200px;
+    background-color: transparent;
+    font-size: 1.3rem;
+    border-radius: 0px;
+    border: 2px solid;
+}
 /* About */
 .row-margin> div {
     margin: 60px 0 60px 0;
