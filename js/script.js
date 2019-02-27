@@ -1,24 +1,15 @@
+const button = document.getElementById("arrowTop")
 
-// plugin validation
-let form = $('.form-contact');
-form.validate({
-    errorElement: 'span',
-    rules: {
-        name: 'required',
-        email: {
-            required: true,
-            email: true
-        },
-        phone: 'required',
-        text: 'required'
-    },
-    messages: {
-        name: 'Por favor, digite seu nome',
-        email: {
-            required: 'Por favor, digite seu e-mail',
-            email: 'por favor, digite um e-mail válido'
-        },
-        phone: 'Por favor, digite seu telefone',
-        text: 'Por favor, digite sua mensagem'
+button.addEventListener("click", function(){
+    window.scrollTo(pageYOffset, 0)
+})
+
+window.addEventListener("scroll", function(){
+    console.log(pageYOffset)
+    if (pageYOffset > 250){
+        button.hidden = false
+    }
+    else {
+        button.hidden = true
     }
 })

@@ -2,6 +2,25 @@
 body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
+#arrowTop {    
+    color: #ffa500;
+    position: fixed;
+    top: 50%;
+    right: 1%;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#arrowTop:hover {
+    color: #04C2C9;
+    transition: 0.3s;
+}
 /* navbar */
 .mynav{
     background-color: transparent;
@@ -151,15 +170,17 @@ body {
     color: #ffa500;
 }
 /* footer */
-.footer{
-    z-index: -99;
-    margin-top: 50px;
+.myfooter{
+    height: 20vh;
+    background: #212529;
 }
-.fa-github {
-    color: #f8f9fa;
-    font-size: 40px;
+.myfooter_social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
-.fa-linkedin {
-    color: #f8f9fa;
-    font-size: 40px;
+.myfooter_img {
+    width: 50px;
+    margin: 0 15px;
 }
