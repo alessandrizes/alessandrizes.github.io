@@ -14,7 +14,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="mynav navbar navbar-expand-lg">
+    <nav class="mynav navbar navbar-expand-lg navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,8 +22,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="mynav_nav navbar-nav">
                 <a class="mynav_item nav-item nav-link" href="#">Início</a>
-                <a class="mynav_item nav-item nav-link" href="#about">Sobre</a>
-                <a class="mynav_item nav-item nav-link" href="#portfolio">Portfolio</a>
+                <a class="mynav_item nav-item nav-link" href="#about">Sobre mim</a>
+                <a class="mynav_item nav-item nav-link" href="#projects">Meus projetos</a>
             </div>
         </div>
     </nav>
@@ -32,7 +32,7 @@
         <div class="mybanner_text text position-absolute">
             <p class="mybanner_paragraph">Olá, me chamo <span class="mybanner_name">Alessandra</span>.</p>
             <p class="mybanner_paragraph">Sou uma desenvolvedora front-end</p>
-            <a href="#portfolio" class="mybanner_btn btn">Ver projetos ></a>
+            <a href="#projects" class="mybanner_btn btn">Ver projetos ></a>
         </div>
         <img class="mybanner_img" src="assets/img/banner.jpg"
             alt="Imagem de fundo representando uma galaxia, nas cores branco e verde água">
@@ -47,13 +47,12 @@
                         <div class="container">
                             <img class="myabout_img" src="assets/img/alessandra-souza.jpeg"
                                 alt="Foto da Alessandra Souza, autora do portfolio">
-                            <h1 class="myabout_title">Quem sou eu?</h1>
-                            <p>Uma pessoa que sempre teve facilidade com números e descobriu um grande
+                            <!-- <h1 class="myabout_title">Quem sou eu?</h1> -->
+                            <p class="myabout_text">Sempre tive facilidade com números e descobri um grande
                                 amor por programação. Participei do curso imersivo de front-end da <span><a
                                         href="http://reprograma.com.br/" target="_blank"
-                                        class="myabout_link card-link">{reprograma}</a></span> uma iniciativa de impacto social focada em ensinar programação para mulheres. E mais do que escrever códigos, aprendi o verdadeiro sentido de
-                                colaboração. Se você quer falar sobre a web, um novo projeto legal ou me convidar para
-                                patinar, me mande um
+                                        class="myabout_link card-link">{reprograma}</a></span>, uma iniciativa de impacto social focada em ensinar programação para mulheres. E mais do que escrever códigos, aprendi o verdadeiro sentido da
+                                colaboração. Se você quer falar comigo sobre a web, um novo projeto legal ou me convidar para patinar, me mande um
                                 <a href="mailto:alessandrasilvasouza@live.com" class="myabout_link card-link">e-mail</a>.</p>
                         </div>
                     </div>
@@ -115,138 +114,43 @@
             </div>
         </section>
     </div>
-    <!-- services -->
-    <section class="services" id="keyServices">
+    <!-- projects -->
+    <section id="projects" class="myprojects">
         <div class="container">
-            <h2 class="d-flex justify-content-center title p-4">Serviços</h2>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="card bg-light m-3">
-                        <div class="card-header text-center">Responsividade</div>
-                        <div class="card-body">
-                            <p class="card-text">Responsividade não é mais um "plus" na sua aplicação e sim uma
-                                característica obrigatória.
-                            </p>
-                        </div>
+            <div class="card-group">
+                <div class="card">
+                    <img class="myprojects_img card-img-top" src="assets/img/m-de-maravilhosa.jpg" alt="Imagem do projeto M de Maravilhosa">
+                    <div class="myprojects_card-hover card-hover">
+                        <p class="myprojects_paragraph">Veja mais</p>
+                        <a class="myprojects_link card-link" target="_blank" href="https://alessouza.github.io/projeto-1_m-de-maravilhosa/">+</a>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card bg-light m-3">
-                        <div class="card-header text-center">Acessibilidade</div>
-                        <div class="card-body">
-                            <p class="card-text">Uma aplicação web deve ser acessível para qualquer pessoa com qualquer
-                                tipo de deficiencia.
-                            </p>
-                        </div>
+                <div class="card">
+                    <img class="myprojects_img card-img-top" src="assets/img/to-do-list.jpg" alt="Imagem do projeto to do list">
+                    <div class="myprojects_card-hover card-hover">
+                        <p class="myprojects_paragraph">Veja mais</p>
+                        <a class="myprojects_link card-link" target="_blank" href="https://alessouza.github.io/to-do-list/">+</a>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="card bg-light m-3">
-                        <div class="card-header text-center">Pixel Perfect</div>
-                        <div class="card-body">
-                            <p class="card-text">Atenta aos detalhes, aqui sua aplicação tem o layout seguido a risca,
-                                com nenhum pixel fora de
-                                lugar.
-                            </p>
-                        </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img class="myprojects_img card-img-top" src="assets/img/alianca-da-terra.JPG" alt="Imagem do projeto da Aliança da Terra">
+                    <div class="myprojects_card-hover card-hover">
+                        <p class="myprojects_paragraph">Veja mais</p>
+                        <a class="myprojects_link card-link" target="_blank" href="https://alessouza.github.io/terra/">+</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="myprojects_img card-img-top" src="assets/img/efeito-enjuba.JPG" alt="Imagem do projeto efeito enjuba">
+                    <div class="myprojects_card-hover card-hover">
+                        <p class="myprojects_paragraph">Veja mais</p>
+                        <a class="myprojects_link card-link" target="_blank" href="https://alessouza.github.io/efeitoenjuba/">+</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- portfolio -->
-    <section class="portfolio" id="keyPortfolio">
-        <div class="container">
-            <h2 class="d-flex justify-content-center title p-4">Portfólio</h2>
-
-            <div class="row">
-                <div class="img-port col-lg-6 col-sm-6 position-relative">
-                    <img src="assets/img/mundo-gelado.jpg">
-
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                <h3> Site Mundo Gelado</h3>
-                            </div>
-                            <div class="project-name">
-                                <p class="project-description font-weight-light">Desenvolvimento em html e css
-                                    responsivo</p>
-                                <a class="btn btn-light" href="https://github.com/alessouza/mundo-gelado"
-                                    role="button">Mais informações </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="img-port col-lg-6 col-sm-6 position-relative">
-                    <img src="assets/img/m-de-maravilhosa.jpg">
-
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                <h3>Site M de Maravilhosa</h3>
-                            </div>
-                            <div class="project-name">
-                                <p>Desenvolvimento em html e css responsivo</p>
-                                <a class="btn btn-light" href="https://github.com/alessouza/m-de-maravilhosas"
-                                    role="button">Mais informações</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="img-port col-lg col-sm position-relative">
-                    <img src="assets/img/to-do-list.jpg">
-
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                <h3>To do list</h3>
-                            </div>
-                            <div class="project-name">
-                                <p>Desenvolvimento de lista de tarefas com JavaScript</p>
-                                <a class="btn btn-light" href="https://github.com/alessouza/to-do-list"
-                                    role="button">Mais informações</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- contact -->
-    <section class="contact" id="keyContact">
-        <div class="container">
-            <h2 class="d-flex justify-content-center title p-4">Contato</h2>
-            <form class="form-contact" name="contect" netlify>
-                <div class="form-group">
-                    <label for="exampleInputName">Nome</label>
-                    <input type="text" name="name" class="form-control" id="exampleInputName"
-                        aria-describedby="nameHelp" placeholder="Digite seu nome">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail">E-mail</label>
-                    <input type="email" name="email" class="form-control" id="exampleInputEmail"
-                        placeholder="Digite seu e-mail">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPhone">Telefone</label>
-                    <input type="text" name="phone" class="form-control f-phone" id="exampleInputPhone"
-                        placeholder="Digite seu telefone">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputText">Escreva uma mensagem</label>
-                    <textarea name="text" class="form-control" id="exampleInputText" rows="4"></textarea>
-                </div>
-                <button class="btn btn-warning">Enviar</button>
-            </form>
-        </div>
-    </section>
-
     <!-- footer -->
     <footer class="footer bg-warning p-5">
         <div class="container">
@@ -261,7 +165,6 @@
             <p class="text-light text-center m-0">Copyright © Alessandra Souza 2018</p>
         </div>
     </footer>
-
     <!-- js -->
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
