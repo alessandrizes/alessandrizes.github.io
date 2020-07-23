@@ -64,6 +64,9 @@ html {
     margin: 0;
     text-align: center;
 }
+.mybanner_gif {
+    width: 40%;
+}
 .mybanner_img {
     height: 100vh;
     width: 100%;
