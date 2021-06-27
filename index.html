@@ -1,197 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
+    <title>@alessandrizes</title>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Alessandra do Carmo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <!-- favicon -->
-    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
-    <!-- css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/icon/site.webmanifest">
+
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="mynav navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="mynav_nav navbar-nav">
-                <a class="mynav_item nav-item nav-link" href="#">Início</a>
-                <a class="mynav_item nav-item nav-link" href="#about">Sobre mim</a>
-                <a class="mynav_item nav-item nav-link" href="#projects">Meus projetos</a>
-            </div>
-        </div>
-    </nav>
-    <!-- banner -->
-    <section class="mybanner">
-        <div class="mybanner_text text position-absolute">
-            <p class="mybanner_paragraph">Olá, me chamo <span class="mybanner_name">Alessandra</span>.</p>
-            <p class="mybanner_paragraph">E sou engenheira de software!</p>
-            <img class="mybanner_gif" src="assets/img/abelha.gif" alt="Gif fofo de uma abelha voando.">
-            <a href="#projects" class="mybanner_btn btn">Ver projetos ></a>
-        </div>
-        <img class="mybanner_img" src="assets/img/banner.jpg"
-            alt="Imagem de fundo representando arte abstrata, nas cores branco e verde água">
+    <main>
+        <header>
+            <img id="avatar" alt="Foto da Alessandra criadora do site,
+                uma mulher negra usando batom vermelho com a mão no queixo e sorrindo."
+                src="assets/images/alessandrizes-avatar.jpeg">
+            <h1>Alessandra do Carmo</h1>
+            <h2>software engineer</h2>
+            <hr>
+        </header>
+        <nav>
+            <ul class="nav-social-media">
+                <li>
+                    <a href="https://www.linkedin.com/in/alessandrizes" target="_blank">
+                        <img alt="Logotipo do Linkedin" src="./assets/images/linkedin.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/alessandrizes" target="_blank">
+                        <img alt="Logotipo do GitHub" src="./assets/images/github.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/alessandrizes" target="_blank">
+                        <img alt="Logotipo do Twitter" src="./assets/images/twitter.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/alessandrizes" target="_blank">
+                        <img alt="Logotipo do Instagram" src="./assets/images/instagram.png">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <h3 class="section-title">Links úteis</h3>
+            <nav>
+                <ul class="nav-links-useful">
+                    <li>
+                        <a href="https://roadmap.sh/" target="_blank" rel="noopener">developer roadmaps</a>
+                    </li>
+                </ul>
+            </nav>
+    </main>
     </section>
-
-    <!-- about -->
-    <div class="container">
-        <section id="about" class="myabout">
-            <div class="container">
-                <div class="row">
-                    <div class="myabout_col col-lg-6">
-                        <div class="container">
-                            <img class="myabout_img" src="assets/img/alessandra-souza.jpg"
-                                alt="Foto da Alessandra Souza, autora do portfolio">
-                            <!-- <h1 class="myabout_title">Quem sou eu?</h1> -->
-                            <p class="myabout_text">Sempre tive facilidade com números e descobri um grande
-                                amor por programação. Participei do curso imersivo de front-end da <span><a
-                                        href="http://reprograma.com.br/" target="_blank"
-                                        class="myabout_link card-link">{reprograma}</a></span>, uma iniciativa de
-                                impacto social focada em ensinar programação para mulheres. E mais do que escrever
-                                códigos, aprendi o verdadeiro sentido da
-                                colaboração. Se você quer falar comigo sobre a web, um novo projeto legal ou me convidar
-                                para patinar, me mande um
-                                <a href="mailto:alessandrizes@gmail.com"
-                                    class="myabout_link card-link">e-mail</a>.</p>
-                        </div>
-                    </div>
-                    <div class="myabout_col col-lg-6">
-                        <div class="container">
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100">
-                                    JavaScript</div>
-                            </div>
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
-                                    aria-valuemax="100">JQuery
-                                </div>
-                            </div>
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
-                                    aria-valuemax="100">
-                                    Bootstrap</div>
-                            </div>
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                                    aria-valuemax="100">
-                                    React</div>
-                            </div>
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
-                                    aria-valuemax="100">CSS
-                                </div>
-                            </div>
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                                    aria-valuemax="100">SASS
-                                </div>
-                            </div>
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-                                    aria-valuemax="100">Git/Github
-                                </div>
-                            </div>
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                                    aria-valuemax="100">HTML
-                                </div>
-                            </div>
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0"
-                                    aria-valuemax="100">Python
-                                </div>
-                            </div>
-                            <div class="myabout_progress progress" style="height: 28px;">
-                                <div class="myabout_progress-bar progress-bar progress-bar-striped bg-info"
-                                    role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                                    aria-valuemax="100">C/C++
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <!-- projects -->
-    <section id="projects" class="myprojects">
-        <div class="container">
-            <div class="card-group">
-                <div class="card">
-                    <img class="myprojects_img card-img-top" src="assets/img/m-de-maravilhosa.jpg"
-                        alt="Imagem do projeto M de Maravilhosa">
-                    <div class="myprojects_card-hover card-hover">
-                        <p class="myprojects_paragraph">Veja mais</p>
-                        <a class="myprojects_link card-link" target="_blank"
-                            href="https://alessandrizes.github.io/projeto-1_m-de-maravilhosa/">+</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="myprojects_img card-img-top" src="assets/img/to-do-list.jpg"
-                        alt="Imagem do projeto to do list">
-                    <div class="myprojects_card-hover card-hover">
-                        <p class="myprojects_paragraph">Veja mais</p>
-                        <a class="myprojects_link card-link" target="_blank"
-                            href="https://alessandrizes.github.io/to-do-list/">+</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-group">
-                <div class="card">
-                    <img class="myprojects_img card-img-top" src="assets/img/alianca-da-terra.JPG"
-                        alt="Imagem do projeto da Aliança da Terra">
-                    <div class="myprojects_card-hover card-hover">
-                        <p class="myprojects_paragraph">Veja mais</p>
-                        <a class="myprojects_link card-link" target="_blank"
-                            href="https://alessandrizes.github.io/terra/">+</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="myprojects_img card-img-top" src="assets/img/efeito-enjuba.JPG"
-                        alt="Imagem do projeto efeito enjuba">
-                    <div class="myprojects_card-hover card-hover">
-                        <p class="myprojects_paragraph">Veja mais</p>
-                        <a class="myprojects_link card-link" target="_blank"
-                            href="https://alessandrizes.github.io/efeitoenjuba/">+</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- footer -->
-    <section class="myfooter">
-        <div class="myfooter_social-media">
-            <a target="_blank" href="https://www.linkedin.com/in/aledocarmoo/"><img class="myfooter_img"
-                    src="assets/img/logo-linkedin.png" alt="Imagem do logo do linkedin"></a>
-            <a target="_blank" href="https://github.com/aledocarmoo"><img class="myfooter_img"
-                    src="assets/img/logo-github.png" alt="Imagem do logo do github"></a>
-        </div>
-    </section>
-    <button id="arrowTop" hidden>▲</button>
-    <!-- js -->
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
 </body>
 
 </html>
